@@ -215,17 +215,48 @@ section p {
 
 /* PROJECT THUMBNAIL */
 
-.project-image {
+/* PROJECT TWO-COLUMN LAYOUT */
+
+.project-layout {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    align-items: center;
+    gap: 30px;
+}
+
+.project-details {
+    min-width: 0;
+}
+
+.project-visual {
+    width: 100%;
+}
+
+.project-visual img {
     display: block;
     width: 100%;
-    max-width: 650px;
-    height: 180px;
+    height: auto;
+    max-height: 420px;
     object-fit: contain;
-    object-position: center;
-    margin: 0 auto 18px;
-    border-radius: 8px;
-    border: 1px solid #e2e8f0;
-    background: #0f172a;
+    border-radius: 10px;
+}
+
+/* MOBILE PROJECT LAYOUT */
+
+@media (max-width: 768px) {
+
+    .project-layout {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .project-visual {
+        order: 2;
+    }
+
+    .project-visual img {
+        max-height: 300px;
+    }
 }
 
 /* PROJECT TECHNOLOGY TAGS */
