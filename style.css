@@ -37,32 +37,45 @@ nav a {
 }
 
 .hero {
-    background: #1d466b;
-    color: white;
+    background: linear-gradient(135deg, #0f172a, #1e3a5f);
+    color: #ffffff;
     text-align: center;
     padding: 100px 20px;
 }
 
 .hero h1 {
-    font-size: 42px;
-    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 46px;
+    margin-bottom: 15px;
 }
 
 .hero h2 {
-    color: #ffffff;
+    color: #38bdf8;
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
+.hero p {
+    color: #cbd5e1;
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    line-height: 1.7;
+}
+
 .btn {
-    display: inline-block;
-    margin-top: 25px;
-    padding: 12px 25px;
-    background: white;
-    color: #142b45;
+    background: #0284c7;
+    color: #ffffff;
+    padding: 13px 28px;
+    border-radius: 6px;
     text-decoration: none;
-    border-radius: 5px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.hero .btn:hover {
+    background: #0369a1;
 }
 
 section {
