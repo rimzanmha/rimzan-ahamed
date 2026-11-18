@@ -82,6 +82,7 @@ nav a:hover {
 
 .hero-text {
     flex: 1;
+    text-align: center;
 }
 
 .hero h1 {
@@ -102,7 +103,7 @@ nav a:hover {
     color: #cbd5e1;
     font-size: 18px;
     max-width: 650px;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
     line-height: 1.8;
 }
 
