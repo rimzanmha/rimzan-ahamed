@@ -213,6 +213,18 @@ section p {
     font-size: 21px;
 }
 
+/* PROJECT THUMBNAIL */
+
+.project-image {
+    width: 100%;
+    max-height: 240px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    margin-bottom: 18px;
+    border: 1px solid #e2e8f0;
+}
+
 /* PROJECT TECHNOLOGY TAGS */
 
 .project-tags {
