@@ -219,7 +219,7 @@ section p {
 
 .project-layout {
     display: grid;
-    grid-template-columns: 0.9fr 1.1fr;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
     align-items: center;
     gap: 30px;
 }
@@ -230,33 +230,16 @@ section p {
 
 .project-visual {
     width: 100%;
+    min-width: 0;
 }
 
 .project-visual img {
     display: block;
     width: 100%;
+    max-width: 100%;
     height: auto;
-    max-height: 420px;
     object-fit: contain;
     border-radius: 10px;
-}
-
-/* MOBILE PROJECT LAYOUT */
-
-@media (max-width: 768px) {
-
-    .project-layout {
-        grid-template-columns: 1fr;
-        gap: 25px;
-    }
-
-    .project-visual {
-        order: 2;
-    }
-
-    .project-visual img {
-        max-height: 300px;
-    }
 }
 
 /* PROJECT TECHNOLOGY TAGS */
@@ -400,6 +383,22 @@ footer {
     section h2 {
         font-size: 26px;
     }
+/* PROJECT CARD MOBILE LAYOUT */
+
+    .project-layout {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .project-visual {
+        width: 100%;
+    }
+
+    .project-visual img {
+        width: 100%;
+        height: auto;
+    }
+   
 }
 
 @media (max-width: 480px) {
