@@ -213,6 +213,24 @@ section p {
     font-size: 21px;
 }
 
+/* PROJECT TECHNOLOGY TAGS */
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 15px 0;
+}
+
+.project-tags span {
+    background: #dce8f2;
+    color: #142b45;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
 .project p {
     color: #475569;
 }
