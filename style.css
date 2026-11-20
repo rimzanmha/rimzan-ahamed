@@ -15,8 +15,8 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    background: #f4f7fb;
-    color: #263238;
+    background: #F8F6F0;
+    color: #536A6A;
     line-height: 1.6;
 }
 
@@ -26,7 +26,7 @@ body {
 ============================== */
 
 header {
-    background: #142b45;
+    background: #153C42;
     color: white;
     padding: 15px 7%;
 }
@@ -57,7 +57,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #38bdf8;
+    color: #6CC1AE;
 }
 
 
@@ -66,7 +66,7 @@ nav a:hover {
 ============================== */
 
 .hero {
-    background: linear-gradient(135deg, #0f172a, #1e3a5f);
+    background: linear-gradient(135deg, #153C42, #20545A);
     color: #ffffff;
     padding: 55px 7%;
 }
@@ -93,14 +93,14 @@ nav a:hover {
 }
 
 .hero h2 {
-    color: #38bdf8;
+    color: #6CC1AE;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 14px;
 }
 
 .hero p {
-    color: #cbd5e1;
+    color: #DCE9E5;
     font-size: 17px;
     max-width: 650px;
     margin: 0 auto 22px;
@@ -108,10 +108,18 @@ nav a:hover {
 }
 
 
-/* HERO BUTTON */
+/* HERO BUTTONS */
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
 
 .btn {
-    background: #0284c7;
+    background: #287C70;
     color: #ffffff;
     padding: 11px 24px;
     border-radius: 6px;
@@ -122,7 +130,27 @@ nav a:hover {
 }
 
 .btn:hover {
-    background: #0369a1;
+    background: #20665D;
+}
+
+
+/* LINKEDIN BUTTON */
+
+.btn-linkedin {
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #6CC1AE;
+    padding: 10px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.btn-linkedin:hover {
+    background: #287C70;
+    border-color: #287C70;
 }
 
 
@@ -138,7 +166,7 @@ nav a:hover {
     object-fit: cover;
     object-position: center top;
     border-radius: 18px;
-    border: 3px solid #38bdf8;
+    border: 3px solid #287C70;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
@@ -153,7 +181,7 @@ section {
 
 section h2 {
     margin-bottom: 18px;
-    color: #142b45;
+    color: #153C42;
     font-size: 28px;
 }
 
@@ -173,18 +201,18 @@ section p {
 }
 
 .skills span {
-    background: #dce8f2;
-    color: #142b45;
+    background: #E8E1D5;
+    color: #153C42;
     padding: 8px 14px;
     border-radius: 6px;
     font-size: 14px;
     font-weight: 600;
-    border: 1px solid #c5d7e8;
+    border: 1px solid #D8D2C5;
     transition: all 0.3s ease;
 }
 
 .skills span:hover {
-    background: #142b45;
+    background: #287C70;
     color: #ffffff;
 }
 
@@ -198,7 +226,7 @@ section p {
     padding: 20px;
     margin-bottom: 18px;
     border-radius: 10px;
-    border: 1px solid #e2e8f0;
+    border: 1px solid #E5E8E3;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -209,7 +237,7 @@ section p {
 }
 
 .project h3 {
-    color: #142b45;
+    color: #153C42;
     margin-bottom: 9px;
     font-size: 20px;
 }
@@ -253,8 +281,8 @@ section p {
 }
 
 .project-tags span {
-    background: #dce8f2;
-    color: #142b45;
+    background: #E8E1D5;
+    color: #153C42;
     padding: 4px 10px;
     border-radius: 20px;
     font-size: 12px;
@@ -262,7 +290,7 @@ section p {
 }
 
 .project p {
-    color: #475569;
+    color: #536A6A;
 }
 
 .project ul {
@@ -273,13 +301,13 @@ section p {
 .project a {
     display: inline-block;
     margin-top: 10px;
-    color: #0284c7;
+    color: #287C70;
     font-weight: 600;
     text-decoration: none;
 }
 
 .project a:hover {
-    color: #0369a1;
+    color: #153C42;
     text-decoration: underline;
 }
 
@@ -302,12 +330,13 @@ section p {
 ============================== */
 
 #contact a {
-    color: #0284c7;
+    color: #287C70;
     text-decoration: none;
     font-weight: 600;
 }
 
 #contact a:hover {
+    color: #153C42;
     text-decoration: underline;
 }
 
@@ -317,7 +346,7 @@ section p {
 ============================== */
 
 footer {
-    background: #142b45;
+    background: #153C42;
     color: #ffffff;
     text-align: center;
     padding: 16px;
