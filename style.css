@@ -107,7 +107,22 @@ nav a:hover {
     line-height: 1.7;
 }
 
+/* LinkedIn Icon */
 
+.linkedin-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    background: #287C70;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    line-height: 1;
+}
 
 /* ==============================
    HERO BUTTONS
